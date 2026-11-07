@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "manifest identical to dist/imd-deployment.json",
+    "both ABI arrays available",
+    "indexing boundary available",
+    "Vite entrypoint available"
+  ]
+}

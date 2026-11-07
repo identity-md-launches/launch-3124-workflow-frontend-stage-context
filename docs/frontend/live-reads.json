@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-11-07T19:38:05.062Z",
+  "sources": [
+    "https://ethereum-sepolia-rpc.publicnode.com",
+    "https://rpc.sepolia.ethpandaops.io",
+    "https://sepolia.rpc.sentio.xyz"
+  ],
+  "chainId": 11155111,
+  "blockNumber": "12085786",
+  "blockHash": "0xb9c6ea9773115a2f9ee49f0b5668f91600b36ecf9153c02ac2160b7d35c532ec",
+  "blockTimestamp": "1794080280",
+  "code": [
+    {
+      "name": "SqueeklingsArt",
+      "address": "0xf9d8a595fb5f0e31011e0b5e2b3fd127a4f38f75",
+      "bytes": 20313,
+      "nonempty": true
+    },
+    {
+      "name": "Squeeklings",
+      "address": "0x141ebcdffa03899187b4ab47f162b40ea00ad012",
+      "bytes": 17814,
+      "nonempty": true
+    }
+  ],
+  "game": {
+    "totalSupply": "0",
+    "MAX_SUPPLY": "88888",
+    "core": "0xFD6C166D4B8E2962E65746a13e5a0797CD4dE0c4",
+    "art": "0xf9D8a595FB5F0E31011e0B5E2b3FD127a4f38f75",
+    "owner": "0x60731C2F051dA8708E405f64e803F3c8D1059dee",
+    "coreEpoch": "1",
+    "currentRound": "575",
+    "mood": [
+      0,
+      false
+    ]
+  },
+  "core": {
+    "address": "0xFD6C166D4B8E2962E65746a13e5a0797CD4dE0c4",
+    "settledThroughRound": "574",
+    "cumulativeWork": "18553",
+    "cumulativeBlockUnits": "1999322478319",
+    "paused": false,
+    "genesisTimestamp": "1793735400",
+    "roundDurationSeconds": "600",
+    "blockUnitsPerBlock": "1000000000"
+  },
+  "scope": "Read-only worker verification through the contributor RPC; public source names retained. No transactions were sent."
+}

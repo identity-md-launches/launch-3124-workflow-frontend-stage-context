@@ -1,0 +1,142 @@
+{
+  "engine": "Chromium headless shell",
+  "target": "production dist at a gateway subpath",
+  "mode": "mock wallet and RPC; no broadcasts",
+  "checks": [
+    {
+      "name": "Static gateway subpath loads manifest, both ABI arrays, local fonts and artwork",
+      "passed": true,
+      "durationMs": 288
+    },
+    {
+      "name": "390 first screen contains product, wallet and hatch action",
+      "passed": true,
+      "durationMs": 91
+    },
+    {
+      "name": "EIP-6963 named wallet, native dialog keyboard close and focus return",
+      "passed": true,
+      "durationMs": 37
+    },
+    {
+      "name": "Unknown chain is added with exact handoff parameters, then switched",
+      "passed": true,
+      "durationMs": 167
+    },
+    {
+      "name": "Hatch simulates, sends no value, locks duplicate submissions and follows receipt token ID",
+      "passed": true,
+      "durationMs": 445
+    },
+    {
+      "name": "Live pet state, actual route times and owner inventory controls",
+      "passed": true,
+      "durationMs": 733
+    },
+    {
+      "name": "Expedition embark, Away, Waiting for settlement and Ready states",
+      "passed": true,
+      "durationMs": 905
+    },
+    {
+      "name": "Return receipt reveals real fixture item and rarity; no predicted capsule is shown",
+      "passed": true,
+      "durationMs": 464
+    },
+    {
+      "name": "Wallet rejection and simulation failure preserve state and allow retry",
+      "passed": true,
+      "durationMs": 346
+    },
+    {
+      "name": "Wrong network visibly blocks all primary write controls",
+      "passed": true,
+      "durationMs": 53
+    },
+    {
+      "name": "Recipient validation and safe NFT transfer preserve explicit ownership",
+      "passed": true,
+      "durationMs": 420
+    },
+    {
+      "name": "Meadow works disconnected, uses logs and Multicall3, and honors reduced motion",
+      "passed": true,
+      "durationMs": 412
+    },
+    {
+      "name": "Phone wallet picker contains four open-in links and Coinbase Smart Wallet",
+      "passed": true,
+      "durationMs": 673
+    },
+    {
+      "name": "320, 390, 760 and 1440 reflow with full addresses, menus and rules",
+      "passed": true,
+      "durationMs": 395
+    },
+    {
+      "name": "Keyboard focus is visible and 200% text enlargement reflows",
+      "passed": true,
+      "durationMs": 150
+    },
+    {
+      "name": "Axe accessibility scan on Hatchery, pet page, Meadow and rules",
+      "passed": true,
+      "durationMs": 3601
+    },
+    {
+      "name": "Offline RPC fails safely without raw request data and keeps the main action visible",
+      "passed": true,
+      "durationMs": 1550
+    },
+    {
+      "name": "Fresh eligibility and supply cap disable hatch, including a wallet that transferred away its pet",
+      "passed": true,
+      "durationMs": 649
+    },
+    {
+      "name": "Missing deployed code disables writes before the wallet is asked to sign",
+      "passed": true,
+      "durationMs": 1672
+    },
+    {
+      "name": "Core signal loss keeps unknown settlement unknown and an older epoch is still returnable",
+      "passed": true,
+      "durationMs": 745
+    },
+    {
+      "name": "RPC fallback recovers when the first configured public endpoint fails",
+      "passed": true,
+      "durationMs": 420
+    },
+    {
+      "name": "Confirmed single-pet approvals can be granted and explicitly revoked",
+      "passed": true,
+      "durationMs": 1291
+    },
+    {
+      "name": "Operator permission requires acknowledgment and can be granted and revoked",
+      "passed": true,
+      "durationMs": 1481
+    },
+    {
+      "name": "Connected administrator can validate and replace the read-only core",
+      "passed": true,
+      "durationMs": 786
+    },
+    {
+      "name": "Very large contract ages and inventory counts wrap at 320 and 390 without clipping",
+      "passed": true,
+      "durationMs": 331
+    },
+    {
+      "name": "My Burrow opens a single owned pet with SVG, pity and routes",
+      "passed": true,
+      "durationMs": 192
+    },
+    {
+      "name": "No unhandled JavaScript exceptions or missing local production resources",
+      "passed": true,
+      "durationMs": 0
+    }
+  ]
+}

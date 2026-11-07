@@ -1,0 +1,45 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-3115-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "7402dd30-c2b9-43d3-abd1-5d1c4a118da2",
+  "manifest": {
+    "kind": "evm_contracts",
+    "notes": "Deploy SqueeklingsArt, the pure on-chain SVG renderer, before Squeeklings, the free SQLING ERC-721 pet game. Squeeklings uses the approved Sepolia SqueekCore V3 address and the deployed renderer. Its explicit administrator is $owner, whose only administrative power is setCore. Both constructors are nonpayable and require no initialization calls.",
+    "contracts": [
+      {
+        "contract": "SqueeklingsArt",
+        "constructorArgs": []
+      },
+      {
+        "contract": "Squeeklings",
+        "constructorArgs": [
+          "0xfd6c166d4b8e2962e65746a13e5a0797cd4de0c4",
+          "$contract:SqueeklingsArt",
+          "$owner"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "SqueeklingsArt",
+      "txHash": "0x30e89248df9ff711b7b4d04f5545ffaed0420a45527d1fd19ff296ee10a3c1ea",
+      "abiHash": "0df47c94b7b1e95a8ee8ee9abbd3ae8524d9641da263fa839bdf9923392a97e5",
+      "address": "0xf9d8a595fb5f0e31011e0b5e2b3fd127a4f38f75",
+      "blockNumber": 12085595,
+      "creationCodeHash": "9219012239253f468c9ae92bc1be8c2912dfd3457505a47813ffec3bcce30892"
+    },
+    {
+      "name": "Squeeklings",
+      "txHash": "0x30e89248df9ff711b7b4d04f5545ffaed0420a45527d1fd19ff296ee10a3c1ea",
+      "abiHash": "73f1b852f050d2d1cc2b41d03ebb6e197d791f73a3b9822d84b680bfd3da3a85",
+      "address": "0x141ebcdffa03899187b4ab47f162b40ea00ad012",
+      "blockNumber": 12085595,
+      "creationCodeHash": "acc6c228de102b79fb1e9454ac788a070651f376d5df3c2cc3fb510c49edc9e1"
+    }
+  ],
+  "sourceCommit": "e382a7cbd4f4f50e047a3b5a20af6957a3985484",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "1e37f14fe55c262aabfa256b6fc3857a0c5cb2aec11c5452e531c9f72f5ec7ed"
+}
